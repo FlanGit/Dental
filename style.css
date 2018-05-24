@@ -1,0 +1,28 @@
+/* nav ul {
+    list-style: none;
+} */
+nav li {display: inline-block;
+    float: right;
+}
+
+header{
+    background-color: bisque;
+}
+/* h1{
+    background-color:  rgb(64, 226, 43);
+   
+} */
+h1 li{
+    font-size: 1.2rem;
+    width:  7rem;
+}
+
+
+main p {
+    width: 15%;
+    float: left;
+    margin-right: 2rem;
+}
+main p:first-child {
+    margin-left: 2rem;
+}
