@@ -1,28 +1,30 @@
-/* nav ul {
-    list-style: none;
-} */
-nav li {display: inline-block;
-    float: right;
-}
+/* ANADIR SIEMPRE*/
+/*******************************/
+* {box-sizing: border-box;}   
+/*******************************/
 
-header{
-    background-color: bisque;
-}
-/* h1{
-    background-color:  rgb(64, 226, 43);
-   
-} */
-h1 li{
-    font-size: 1.2rem;
-    width:  7rem;
-}
-
-
-main p {
-    width: 15%;
+.logo{
     float: left;
-    margin-right: 2rem;
 }
-main p:first-child {
-    margin-left: 2rem;
+h1{
+    display: none;
 }
+nav {
+    position: relative;
+    width: 50%;
+    float: right;
+  }
+  nav ul {
+    list-style: none;
+    margin-top: 5rem;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    color: #fac000;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 5px solid #ff5555;
+    background-color: black;
+  }
